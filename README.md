@@ -3,4 +3,4 @@ Repository for Course MAP2192
 
 [MY WEBSITE](https://github.com/MalB88-eng/MAP2192)
 
-<img src ="https://www.fau.edu/public-affairs/images/spirit-mark2.png" width = 400>
+<img src ="(https://raw.githubusercontent.com/MalB88-eng/MAP2192/main/Barbell.png)" width = 400>
