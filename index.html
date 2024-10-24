@@ -1,121 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NatureDex - Discover, Explore, and Protect Nature">
+    <title>NatureDex - Explore Nature</title>
+</head>
+<body style="font-family: Arial, sans-serif; color: #333; line-height: 1.6; margin: 0; padding: 0;">
+    <header style="background-color: #4CAF50; padding: 20px 0;">
+        <div style="width: 80%; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="color: white; font-size: 28px; font-weight: bold;">NatureDex</h1>
+            <nav>
+                <ul style="list-style: none; display: flex; gap: 20px; margin: 0;">
+                    <li><a href="#about" style="color: white; text-decoration: none; font-weight: bold;">About Us</a></li>
+                    <li><a href="#services" style="color: white; text-decoration: none; font-weight: bold;">Our Services</a></li>
+                    <li><a href="#contact" style="color: white; text-decoration: none; font-weight: bold;">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-body {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    line-height: 1.6;
-}
+    <section id="hero" style="background-image: url('https://source.unsplash.com/1600x900/?nature'); background-size: cover; background-position: center; height: 500px; display: flex; justify-content: center; align-items: center; color: white; text-align: center;">
+        <div>
+            <h2 style="font-size: 36px;">Discover the Beauty of Nature with NatureDex</h2>
+            <p style="font-size: 18px; margin: 20px 0;">Your one-stop destination to explore and protect nature.</p>
+            <a href="#services" style="background-color: #4CAF50; padding: 10px 20px; color: white; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background-color 0.3s;">Learn More</a>
+        </div>
+    </section>
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+    <section id="about" style="padding: 40px 0; text-align: center;">
+        <div style="width: 80%; margin: 0 auto;">
+            <h2 style="font-size: 30px; margin-bottom: 20px; color: #4CAF50;">About Us</h2>
+            <p>NatureDex is dedicated to bringing you closer to nature by offering tools and services that help you explore, document, and protect the environment. Our mission is to empower individuals and organizations to make a positive impact on the planet.</p>
+        </div>
+    </section>
 
-header {
-    background-color: #4CAF50;
-    padding: 20px 0;
-}
+    <section id="services" style="padding: 40px 0; text-align: center;">
+        <div style="width: 80%; margin: 0 auto;">
+            <h2 style="font-size: 30px; margin-bottom: 20px; color: #4CAF50;">Our Services</h2>
+            <div style="display: flex; justify-content: space-around; margin-top: 20px;">
+                <div style="width: 30%; background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
+                    <h3>Nature Exploration</h3>
+                    <p>Discover scenic locations, hiking trails, and wildlife sanctuaries near you.</p>
+                </div>
+                <div style="width: 30%; background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
+                    <h3>Conservation Programs</h3>
+                    <p>Join hands in protecting endangered species and participate in community-led conservation projects.</p>
+                </div>
+                <div style="width: 30%; background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
+                    <h3>Environmental Education</h3>
+                    <p>Learn about sustainability, biodiversity, and how you can contribute to preserving the environment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-header .logo {
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    float: right;
-}
-
-nav ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#hero {
-    background-image: url('https://source.unsplash.com/1600x900/?nature');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-}
-
-#hero h2 {
-    font-size: 36px;
-}
-
-#hero p {
-    font-size: 18px;
-    margin: 20px 0;
-}
-
-.btn {
-    background-color: #4CAF50;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #45a049;
-}
-
-#about, #services, #contact {
-    padding: 40px 0;
-}
-
-h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #4CAF50;
-}
-
-p {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.services {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.service {
-    width: 30%;
-    background-color: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-}
-
-footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-footer a {
-    color: white;
-    text-decoration: underline;
-}
-
+    <footer id="contact" style="background-color: #4CAF50; color: white; padding: 20px; text-align: center;">
+        <div style="width: 80%; margin: 0 auto;">
+            <h2 style="font-size: 30px;">Contact Us</h2>
+            <p>Have questions or want to collaborate with us? Reach out at <a href="mailto:info@naturedex.com" style="color: white; text-decoration: underline;">info@naturedex.com</a></p>
+            <p>&copy; 2024 NatureDex. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
