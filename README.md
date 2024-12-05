@@ -3,7 +3,7 @@ Repository for Course MAP2192
 
 ## Final Project Links
 
-[Alexnet Notebook](https://colab.research.google.com/drive/1uENOD0gYya9UEIDPxOFzLNx_JfeCgFaI?usp=sharing))
+[Alexnet Notebook](https://colab.research.google.com/drive/1uENOD0gYya9UEIDPxOFzLNx_JfeCgFaI?usp=sharing)
 
 [NatureDex Website](https://tinyurl.com/NatureDexx)
 
